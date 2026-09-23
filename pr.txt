@@ -1,0 +1,6 @@
+PR: 
+    - Bikin fungsi CRUD (Mulai dari bikin akun),
+    - buka website Cloudinary,
+    - terus Register ke website-nya,
+    - abis itu upload image buat foto profil akun,
+    - dan harus tampilin akun beserta foto profilnya (dalam bentuk URL) di terminal.
