@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken'
 
 export function authMiddleware(req: Request, res: Response, next: NextFunction) {
     if (!req.headers?.authorization) {
-        res.status(403).json({
+        return res.status(403).json({
             message : 'Not login yet'
         })
     }
