@@ -136,7 +136,7 @@ app.post('/api/register', upload.single('profile_picture'), async (req: Request,
         );
         stream.end(req.file!.buffer);
       }) as any;
-      profilePictureUrl = uploadResult.source_url;
+      profilePictureUrl = uploadResult.url;
     }
 
     // 5. Save ke database
